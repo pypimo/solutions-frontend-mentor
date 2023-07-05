@@ -1,5 +1,8 @@
 # Frontend Mentor - Order summary card
 
+[Order Summary](https://pypimo.github.io/solutions-frontend-mentor/order-summary/)
+Project hosted at https://pypimo.github.io/solutions-frontend-mentor/order-summary/
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
