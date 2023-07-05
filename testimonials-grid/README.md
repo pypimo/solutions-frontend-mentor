@@ -1,5 +1,8 @@
 # Frontend Mentor - Testimonials grid section
 
+[Testimonials Grid](https://pypimo.github.io/solutions-frontend-mentor/testimonials-grid/)
+Project hosted at https://pypimo.github.io/solutions-frontend-mentor/testimonials-grid/
+
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
