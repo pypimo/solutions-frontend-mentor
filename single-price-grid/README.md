@@ -1,6 +1,6 @@
 # Frontend Mentor - Single price grid component
 
-[Single Price Grid](https://pypimo.github.io/solutions-frontend-mentor/single-price-grid/) <br>
+Project hosted at [Single Price Grid](https://pypimo.github.io/solutions-frontend-mentor/single-price-grid/) <br>
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
