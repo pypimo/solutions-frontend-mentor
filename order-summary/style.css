@@ -44,7 +44,7 @@ main{
 
 #hero {
     width: 100%;
-    height: 160px;
+    height: 180px;
 }
 
 #plans {
@@ -128,7 +128,7 @@ main{
 
 @media (min-width: 400px){
     main {
-        margin: 40px auto;
-        max-width: 370px;
+        margin: 80px auto;
+        max-width: 390px;
     }
 }
