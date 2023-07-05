@@ -100,7 +100,7 @@ body {
 @media (min-width: 768px) {
     .grid-container {
         max-width: 1125px;
-        margin: 2% auto;
+        margin: 3% auto;
     }
 
     .grid-item {
