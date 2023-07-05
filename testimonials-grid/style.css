@@ -98,6 +98,10 @@ body {
 
 
 @media (min-width: 768px) {
+    .grid-container {
+        max-width: 1125px;
+        margin: 2% auto;
+    }
 
     .grid-item {
         margin-right: 20px;   
@@ -106,11 +110,6 @@ body {
     .grid-container, .top, .bottom {
         display: flex;
         flex-direction: row;
-    }
-
-    .grid-container {
-        max-width: 1125px;
-        margin: 1.2% auto;
     }
 
     .container {
