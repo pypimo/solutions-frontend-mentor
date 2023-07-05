@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --pale-blue: #e0e8ff;
+    --bright-blue: #3829e0;
+    --very-pale-blue: #f5f7ff;
+    --desaturated-blue: #7280a7;
+    --dark-blue: #1f2f56;
+}
+
+p {
+    color: var(--desaturated-blue);
+    line-height: 28px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+body {
+    background-color: var(--pale-blue);
+}
+
+main{
+    margin: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: auto;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 30px 40px -8px rgba(56, 41, 223, 0.2);
+}
+
+#hero {
+    width: 100%;
+    height: 160px;
+}
+
+#plans {
+    background-color: var(--very-pale-blue);
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    /* height: 50px; */
+    margin-top: 25px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#music-icon {
+    margin-right: 15px;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+}
+
+#content {
+    padding: 30px;
+    text-align: center;
+}
+
+#content > p {
+    margin: 15px;
+}
+
+#change {
+    position: absolute;
+    right: 15px;
+    text-decoration: underline;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+#payment {
+    background-color: var(--bright-blue);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-weight: 800;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 1px 30px 40px -8px rgba(56, 41, 224, 0.3);
+}
+
+#cancel {
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+#change:hover, #payment:hover, #cancel:hover {
+    cursor: pointer;
+}
+#payment:hover {
+    transform: scale(1.05);
+}
+#cancel:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* .attribution {
+    font-size: 16px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+@media (min-width: 400px){
+    main {
+        margin: 40px auto;
+        max-width: 370px;
+    }
+}
